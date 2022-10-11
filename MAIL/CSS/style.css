@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: bisque;
+    color: goldenrod;
+}
+.wrapper{
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+}
+h1{
+    font-size: 4rem;
+    margin-bottom: 50px;
+}
+input{
+    border: 2px solid gold;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+.no-outline:focus {
+    outline: none;
+  }
+.btn{
+    padding: 10px 15px;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: gold;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: bolder;
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition: ease 500ms;
+}
+.result{
+  margin-top: 50px;
+  font-size: 2rem;
+  font-weight: bold;
+}

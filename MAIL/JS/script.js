@@ -24,9 +24,9 @@ const checkMail = function(){
     }
     //creo il messaggio che avviserà l'utente se è presente o meno nella mailing list
     if(found){
-        alert('You are on the mailing list !');
+        document.querySelector('.result').innerHTML = 'You are on the list !'
     }else{
-        alert('Not Found')
+        document.querySelector('.result').innerHTML = 'Not Found !'
     }
     userEmailInput.value = '';
 }
