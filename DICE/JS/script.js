@@ -11,3 +11,7 @@ const firstRandomNum = Math.floor(Math.random() *  (6 - 1 + 1) ) + 1;
 //img/dice-append firstRandomNu - + png ( from 1 to 6)
 const firstDiceImg = './img/dice' + firstRandomNum + '.png';
 document.querySelectorAll('img')[0].setAttribute('src', firstDiceImg);
+
+const secondRandomNum = Math.floor(Math.random() *  (6 - 1 + 1) ) + 1;
+const secondtDiceImg = './img/dice' + secondRandomNum + '.png';
+document.querySelectorAll('img')[1].setAttribute('src', secondtDiceImg);
