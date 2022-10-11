@@ -15,3 +15,15 @@ document.querySelectorAll('img')[0].setAttribute('src', firstDiceImg);
 const secondRandomNum = Math.floor(Math.random() *  (6 - 1 + 1) ) + 1;
 const secondtDiceImg = './img/dice' + secondRandomNum + '.png';
 document.querySelectorAll('img')[1].setAttribute('src', secondtDiceImg);
+
+//creo le condizioni per il vincitore
+if (firstRandomNum > secondRandomNum){
+    
+    document.querySelector('h1').innerHTML = 'You are the winner!'
+
+}else if(secondRandomNum > firstRandomNum){
+    document.querySelector('h1').innerHTML = 'You lost, try again !'
+
+}else {
+    document.querySelector('h1').innerHTML = "It's a draw !"
+}
