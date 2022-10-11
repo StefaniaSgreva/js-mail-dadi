@@ -1,3 +1,4 @@
+"use strict"; 
 /*
 Mail:
 Chiedi all’utente la sua email,
